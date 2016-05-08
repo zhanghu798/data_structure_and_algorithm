@@ -6,10 +6,10 @@ import numpy as np
 
 
 def left(i):
-    return 2*i + 0
+    return 2*i + 1
 
 def right(i):
-    return 2*i + 1
+    return 2*i + 2
 
 def max_heapify(A, i, lenA):
     '''
